@@ -17,7 +17,7 @@ interface FoodProps {
 }
 
 const Dashboard = () => {
-  const [foods, setFoods] = useState<FoodProps[]>({} as FoodProps[]);
+  const [foods, setFoods] = useState<FoodProps[]>([]);
   const [editingFood, setEditingFood] = useState<FoodProps>({} as FoodProps);
   const [modalOpen, setModalOpen] = useState(false);
   const [editModalOpen, setEditModalOpen] = useState(false);
